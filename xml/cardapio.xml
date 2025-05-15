@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="c1"> 
+        <nome>
+            Risoto
+        </nome>
+        <descricao>
+            Arroz soltinho 
+        </descricao>
+        <ingredientes>
+            Arroz, cenoura, alho e frango
+        </ingredientes>
+        <preco>
+            15
+        </preco>
+        <calorias>
+            2050
+        </calorias>
+        <tempo_preparo>
+            20min
+        </tempo_preparo>
+    </prato>
+    <prato id="c2"> 
+        <nome>
+            Feijoada
+        </nome>
+        <descricao>
+            Feijoada feita por Cirilo em pessoa. 
+        </descricao>
+        <ingredientes>
+            Feijão preto, verduras, batatinha e calabreso
+        </ingredientes>
+        <preco>
+            25
+        </preco>
+        <calorias>
+            120
+        </calorias>
+        <tempo_preparo>
+            30min
+        </tempo_preparo>
+    </prato>
+    <prato id="c3"> 
+        <nome>
+            Lasanha
+        </nome>
+        <descricao>
+            Lasanha feita por Cirilo em pessoa. 
+        </descricao>
+        <ingredientes>
+            Macarrão de lasanha, carne, queijo, carne, tomate e muito amor
+        </ingredientes>
+        <preco>
+            50
+        </preco>
+        <calorias>
+            320
+        </calorias>
+        <tempo_preparo>
+            60min
+        </tempo_preparo>
+    </prato>
+    <prato id="c4"> 
+        <nome>
+            Pudim
+        </nome>
+        <descricao>
+            Pudim criado por Cirilo e Fernanda, em homenagem a Ari.
+        </descricao>
+        <ingredientes>
+            Leite moça, açucar e camaradagem
+        </ingredientes>
+        <preco>
+            amizade não tem valor.
+        </preco>
+        <calorias>
+            muitas
+        </calorias>
+        <tempo_preparo>
+            10min
+        </tempo_preparo>
+    </prato>
+    <prato id="c5"> 
+        <nome>
+            Macarrão
+        </nome>
+        <descricao>
+            Carlinhos comeu 2050 
+        </descricao>
+        <ingredientes>
+            Macarrão, alho, cebola, Carlinhos
+        </ingredientes>
+        <preco>
+            2050
+        </preco>
+        <calorias>
+            2050
+        </calorias>
+        <tempo_preparo>
+            2050min
+        </tempo_preparo>
+    </prato>
+</cardapio>
