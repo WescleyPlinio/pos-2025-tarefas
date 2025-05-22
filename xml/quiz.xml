@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz [
+    <!ELEMENT quiz (disciplina, professor, turma, data, questões)>
+    <!ATTLIST quiz versao CDATA #REQUIRED>
+        <!ELEMENT disciplina (#PCDATA)>
+        <!ELEMENT professor (nome, matrícula?)>
+            <!ELEMENT nome (#PCDATA)>
+            <!ELEMENT matrícula (#PCDATA)>
+        <!ELEMENT turma (#PCDATA)>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT questões (questão+)>
+            <!ELEMENT questão (enunciado, pontuação, alternativas)>
+                <!ELEMENT enunciado (#PCDATA)>
+                <!ELEMENT pontuação (#PCDATA)>
+                <!ELEMENT alternativas (alternativa+)>
+                    <!ELEMENT alternativa (#PCDATA)>
+                    <!ATTLIST alternativa correta (sim|nao) #REQUIRED>
+]>
+
+<quiz versao="q1">
+    <disciplina>POS</disciplina>
+    <professor>
+        <nome>Diego Cilindro</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+    <turma>info4m</turma>
+    <data>hoje</data>
+    <questões>
+        <questão>
+            <enunciado>Enunciado 1</enunciado>
+            <pontuação>20</pontuação>
+            <alternativas>
+                <alternativa correta="sim">A</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="nao">C</alternativa>
+                <alternativa correta="nao">D</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Enunciado 2</enunciado>
+            <pontuação>20</pontuação>
+            <alternativas>
+                <alternativa correta="nao">A</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="sim">C</alternativa>
+                <alternativa correta="nao">D</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Enunciado 3</enunciado>
+            <pontuação>20</pontuação>
+            <alternativas>
+                <alternativa correta="nao">A</alternativa>
+                <alternativa correta="sim">B</alternativa>
+                <alternativa correta="nao">C</alternativa>
+                <alternativa correta="nao">D</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Enunciado 4</enunciado>
+            <pontuação>20</pontuação>
+            <alternativas>
+                <alternativa correta="nao">A</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="nao">C</alternativa>
+                <alternativa correta="sim">D</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Enunciado 1</enunciado>
+            <pontuação>20</pontuação>
+            <alternativas>
+                <alternativa correta="sim">A</alternativa>
+                <alternativa correta="nao">B</alternativa>
+                <alternativa correta="nao">C</alternativa>
+                <alternativa correta="sim">D</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>

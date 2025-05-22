@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
     <prato id="c1"> 
         <nome>
@@ -16,9 +17,9 @@
         <calorias>
             2050
         </calorias>
-        <tempo_preparo>
+        <tempoPreparo>
             20min
-        </tempo_preparo>
+        </tempoPreparo>
     </prato>
     <prato id="c2"> 
         <nome>
@@ -36,9 +37,9 @@
         <calorias>
             120
         </calorias>
-        <tempo_preparo>
+        <tempoPreparo>
             30min
-        </tempo_preparo>
+        </tempoPreparo>
     </prato>
     <prato id="c3"> 
         <nome>
@@ -56,9 +57,9 @@
         <calorias>
             320
         </calorias>
-        <tempo_preparo>
+        <tempoPreparo>
             60min
-        </tempo_preparo>
+        </tempoPreparo>
     </prato>
     <prato id="c4"> 
         <nome>
@@ -76,9 +77,9 @@
         <calorias>
             muitas
         </calorias>
-        <tempo_preparo>
+        <tempoPreparo>
             10min
-        </tempo_preparo>
+        </tempoPreparo>
     </prato>
     <prato id="c5"> 
         <nome>
@@ -96,8 +97,8 @@
         <calorias>
             2050
         </calorias>
-        <tempo_preparo>
+        <tempoPreparo>
             2050min
-        </tempo_preparo>
+        </tempoPreparo>
     </prato>
 </cardapio>
