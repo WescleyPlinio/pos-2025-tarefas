@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:i="FotosDeImobiliariasGrandes"
-    targetNamespace="FotosDeImobiliariasGrandes"
+    xmlns:i="http://FotosDeImobiliariasGrandes.com"
+    targetNamespace="http://FotosDeImobiliariasGrandes.com"
     elementFormDefault="qualified"
     >
     
@@ -27,21 +27,45 @@
                                         <element name="rua" type="string"/>
                                         <element name="bairro" type="string"/>
                                         <element name="cidade" type="string"/>
-                                        <element name="numero" type="integer"/>
+                                        <element name="numero">
+                                            <simpleType>
+                                                <restriction base="decimal">
+                                                    <fractionDigits value="2"/>
+                                                </restriction>
+                                            </simpleType>
+                                        </element>
                                     </sequence>
                                 </complexType>
                             </element>
                             <element name="caracteristicas">
                                 <complexType>
                                     <sequence>
-                                        <element name="tamanho" type="string"/>
-                                        <element name="numQuartos" type="integer"/>
-                                        <element name="numBanheiros" type="integer"/>
+                                        <element name="tamanho"/>
+                                        <element name="numQuartos">
+                                            <simpleType>
+                                                <restriction base="decimal">
+                                                    <fractionDigits value="2"/>
+                                                </restriction>
+                                            </simpleType>
+                                        </element>
+                                        <element name="numBanheiros">
+                                            <simpleType>
+                                                <restriction base="decimal">
+                                                    <fractionDigits value="2"/>
+                                                </restriction>
+                                            </simpleType>
+                                        </element>
                                     </sequence>
                                 </complexType>
                             </element>
+                            <element name="valor">
+                                <simpleType>
+                                    <restriction base="decimal">
+                                        <fractionDigits value="2"/>
+                                    </restriction>
+                                </simpleType>
+                            </element>
                         </sequence>
-                        <attribute name="valor" type="integer"/>
                     </complexType>
                 </element>
             </sequence>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
-<imobiliaria>
+<imobiliaria xmlns="http://FotosDeImobiliariasGrandes.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://FotosDeImobiliariasGrandes.com imobiliaria.xsd">
+    
     <imovel>
         <descricao>Casa ampla no centro da cidade</descricao>
         <proprietario>
