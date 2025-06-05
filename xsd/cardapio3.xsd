@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:c="FotosDeCardapiosGrandes"
+    targetNamespace="FotosDeCardapiosGrandes"
+    elementFormDefault="qualified"
+    >
+
+    <simpleType name="precoType">
+        <restriction base="decimal">
+            <fractionDigits value="2"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="ingredientesType">
+        <sequence>
+            <element name="ingrediente" maxOccurs="unbounded"></element>
+        </sequence>
+    </complexType>
+    
+</schema>

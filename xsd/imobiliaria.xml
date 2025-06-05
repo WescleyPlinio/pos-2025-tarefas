@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<imobiliaria>
+    <imovel>
+        <descricao>Casa ampla no centro da cidade</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <email>joao.silva@email.com</email>
+            <telefone>11999999999</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>500000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento com vista para o mar</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <email>maria.oliveira@email.com</email>
+            <telefone>21988887777</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Atlântica</rua>
+            <bairro>Copacabana</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>85m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>750000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chácara com piscina e pomar</descricao>
+        <proprietario>
+            <nome>Carlos Pereira</nome>
+            <telefone>19977778888</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada Velha</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Campinas</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>5000m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>1200000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet próxima à universidade</descricao>
+        <proprietario>
+            <nome>Ana Souza</nome>
+            <email>ana.souza@email.com</email>
+            <telefone>31966665555</telefone>
+            <telefone>31966665556</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Savassi</bairro>
+            <cidade>Belo Horizonte</cidade>
+            <numero>789</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>180000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sobrado com garagem e quintal</descricao>
+        <proprietario>
+            <nome>Pedro Lima</nome>
+            <telefone>47955554444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Acácias</rua>
+            <bairro>Vila Nova</bairro>
+            <cidade>Joinville</cidade>
+            <numero>321</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+</imobiliaria>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:c="FotosDeCardapiosGrandes"
+    targetNamespace="FotosDeCardapiosGrandes"
+    elementFormDefault="qualified"
+    >
+    <element name="nome" type="string"></element>
+    <element name="descricao" type="string"></element>
+    <element name="ingrediente" type="string"></element>
+    <element name="preco">
+        <simpleType>
+            <restriction base="decimal">
+                <fractionDigits value="2"/>
+            </restriction>
+        </simpleType>
+    </element>
+    <element name="calorias" type="integer"></element>
+    <element name="tempoPreparo" type="integer"></element>
+    
+</schema>
