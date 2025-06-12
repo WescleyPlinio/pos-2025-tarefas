@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <!DOCTYPE quiz SYSTEM "quiz.dtd"> -->
 
-<quiz versao="q1">
-    <disciplina>POS</disciplina>
-    <professor>
-        <nome>Diego Cilindro</nome>
-        <matrícula>12345</matrícula>
-    </professor>
+<quiz versao="1" xmlns="http://FotosDeQuizesGrandes.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://FotosDeQuizesGrandes.com quiz.xsd">
+
+    <disciplina>
+        <nomeDisciplina>POS</nomeDisciplina>
+        <professor>
+            <nome>Diego Cilindro</nome>
+            <matricula>P12345</matricula>
+        </professor>
+    </disciplina>
     <turma>info4m</turma>
     <data>hoje</data>
-    <questões>
+    <questoes>
         <questão>
             <enunciado>Enunciado 1</enunciado>
             <pontuação>20</pontuação>

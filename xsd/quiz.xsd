@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:q="http://FotosDeQuizesGrandes.com"
+    targetNamespace="http://FotosDeQuizesGrandes.com"
+    elementFormDefault="qualified"
+    >
+    <element name="nomeDisciplina" type="string"/>
+    <element name="turma" type="string"/>
+    <element name="data" type="string"/>
+    <element name="nome" type="string"/>
+    <element name="matricula" type="string"/>
+    <element name="enunciado" type="string"/>
+    <element name="pontuacao" type="decimal"/>
+    <element name="alternativa" type="string"></element>
+
+    
+    <element name="professor">
+        <complexType>
+            <sequence>
+                <element ref="q:nome"/>
+                <element ref="q:matricula"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="disciplina">
+        <complexType>
+            <sequence>
+                <element ref="q:nomeDisciplina"></element>
+                <element ref="q:professor"></element>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="alternativas">
+        <complexType>
+            <sequence>
+                <element ref="q:alternativa" minOccurs="4" maxOccurs="5" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="questao">
+        <complexType>
+            <sequence>
+                <element ref="q:enunciado"/>
+                <element ref="q:pontuacao"/>
+                <element ref="q:alternativas"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="questoes">
+        <complexType>
+            <sequence>
+                <element ref="q:questao" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    
+    <element name="quiz">
+        <complexType>
+            <sequence>
+                <element ref="q:disciplina"></element>
+                <element ref="q:turma"></element>
+                <element ref="q:data"></element>
+                <element ref="q:questoes"></element>
+            </sequence>
+            <attribute name="versao" type="integer" use="required"></attribute>
+        </complexType>
+    </element>
+</schema>

@@ -49,12 +49,14 @@
         <descricao>Chácara com piscina e pomar</descricao>
         <proprietario>
             <nome>Carlos Pereira</nome>
+            <email>carlinhos131@gmail.com</email>
             <telefone>19977778888</telefone>
         </proprietario>
         <endereco>
             <rua>Estrada Velha</rua>
             <bairro>Zona Rural</bairro>
             <cidade>Campinas</cidade>
+            <numero>321</numero>
         </endereco>
         <caracteristicas>
             <tamanho>5000m²</tamanho>
@@ -70,7 +72,6 @@
             <nome>Ana Souza</nome>
             <email>ana.souza@email.com</email>
             <telefone>31966665555</telefone>
-            <telefone>31966665556</telefone>
         </proprietario>
         <endereco>
             <rua>Rua das Palmeiras</rua>

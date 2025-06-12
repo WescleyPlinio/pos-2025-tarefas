@@ -16,7 +16,7 @@
                                 <complexType>
                                     <sequence>
                                         <element name="nome" type="string"/>
-                                        <element name="email" type="string"/>
+                                        <element name="email" type="string" minOccurs="0"/>
                                         <element name="telefone" type="string"/>
                                     </sequence>
                                 </complexType>
