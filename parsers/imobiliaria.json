@@ -1,0 +1,116 @@
+{
+  "imobiliaria": {
+    "imovel": [
+      {
+        "id": null,
+        "descricao": "Apartamento moderno com ótima localização",
+        "proprietario": {
+          "nome": "João Silva",
+          "email": "joao@gmail.com",
+          "telefone": [
+            "1199999-0000",
+            "1198888-1111"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Flores",
+          "bairro": "Centro",
+          "cidade": "São Paulo",
+          "numero": 100
+        },
+        "caracteristicas": {
+          "tamanho": 85,
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": 550000
+      },
+      {
+        "id": null,
+        "descricao": "Casa espaçosa com quintal amplo",
+        "proprietario": {
+          "nome": "Maria Oliveira",
+          "telefone": [
+            "1197777-2222"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Acácias",
+          "bairro": "Jardim das Flores",
+          "cidade": "Campinas",
+          "numero": 450
+        },
+        "caracteristicas": {
+          "tamanho": 250,
+          "numQuartos": 4,
+          "numBanheiros": 3
+        },
+        "valor": 750000
+      },
+      {
+        "id": null,
+        "descricao": "Kitnet prática e bem localizada",
+        "proprietario": {
+          "nome": "Pedro Santos",
+          "email": "pedro_santos@hotmail.com"
+        },
+        "endereco": {
+          "rua": "Rua Principal",
+          "bairro": "Centro",
+          "cidade": "Curitiba"
+        },
+        "caracteristicas": {
+          "tamanho": 35,
+          "numQuartos": 1,
+          "numBanheiros": 1
+        },
+        "valor": 180000
+      },
+      {
+        "id": null,
+        "descricao": "Apartamento de luxo com vista para o mar",
+        "proprietario": {
+          "nome": "Ana Paula",
+          "email": "anapaula@gmail.com",
+          "telefone": [
+            "2196666-3333"
+          ]
+        },
+        "endereco": {
+          "rua": "Av. Atlântica",
+          "bairro": "Copacabana",
+          "cidade": "Rio de Janeiro",
+          "numero": 1500
+        },
+        "caracteristicas": {
+          "tamanho": 200,
+          "numQuartos": 3,
+          "numBanheiros": 4
+        },
+        "valor": 2500
+      },
+      {
+        "id": null,
+        "descricao": "Sobrado aconchegante com garagem",
+        "proprietario": {
+          "nome": "Carlos Mendes",
+          "telefone": [
+            "1195555-4444"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Palmeiras",
+          "bairro": "Vila Nova",
+          "cidade": "Porto Alegre",
+          "numero": 321
+        },
+        "caracteristicas": {
+          "tamanho": 120,
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": 480000
+      }
+    ]
+  }
+}
