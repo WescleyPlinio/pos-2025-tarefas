@@ -1,5 +1,78 @@
 {
-    "nome": "Risoto",
-    "descricao": "Arroz soltinho",
-    "ingredientes": ["Arroz", "Cenoura", "Alho", "Frango"]
+  "cardapio": {
+    "prato": [
+      {
+        "id": 1,
+        "nome": "Pure de Batata",
+        "descricao": "Comida pastosa feita com batata",
+        "ingredientes": [
+          "Batata",
+          "Batata",
+          "Batata"
+        ],
+        "preco": 20.00,
+        "tempoPreparo": 10,
+        "calorias": 88
+      },
+      {
+        "id": 2,
+        "nome": "Macarrão à Bolonhesa",
+        "descricao": "Macarrão com molho de carne moída e tomate",
+        "ingredientes": [
+          "Macarrão",
+          "Carne moída",
+          "Molho de tomate",
+          "Cebola",
+          "Alho"
+        ],
+        "preco": 25.00,
+        "tempoPreparo": 20,
+        "calorias": 450
+      },
+      {
+        "id": 3,
+        "nome": "Salada Tropical",
+        "descricao": "Salada refrescante com frutas e vegetais",
+        "ingredientes": [
+          "Alface",
+          "Rúcula",
+          "Manga",
+          "Morango",
+          "Nozes"
+        ],
+        "preco": 18.00,
+        "tempoPreparo": 18,
+        "calorias": 120
+      },
+      {
+        "id": 4,
+        "nome": "Frango Grelhado com Legumes",
+        "descricao": "Peito de frango grelhado acompanhado de legumes cozidos",
+        "ingredientes": [
+          "Frango",
+          "Cenoura",
+          "Brócolis",
+          "Abobrinha",
+          "Azeite"
+        ],
+        "preco": 30.00,
+        "tempoPreparo": 17,
+        "calorias": 350
+      },
+      {
+        "id": 5,
+        "nome": "Omelete de Queijo",
+        "descricao": "Omelete simples recheada com queijo",
+        "ingredientes": [
+          "Ovos",
+          "Queijo",
+          "Sal",
+          "Pimenta"
+        ],
+        "preco": 15.00,
+        "tempoPreparo": 15,
+        "calorias": 200
+      }
+    ]
+  }
 }

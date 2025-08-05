@@ -1,0 +1,84 @@
+{
+  "quiz": {
+    "versao": null,
+    "disciplina": "POS",
+    "professor": {
+      "nome": "Diego Cirilo",
+      "matricula": "20221180035"
+    },
+    "turma": "Infoweb22",
+    "data": "22/05",
+    "questoes": [
+      {
+        "enunciado": "O XML é uma linguagem de marcação?",
+        "pontuacao": 5,
+        "alternativas": [
+          {
+            "texto": "SIM",
+            "correta": "sim"
+          },
+          {
+            "texto": "NÃO",
+            "correta": "nao"
+          }
+        ]
+      },
+      {
+        "enunciado": "O DTD serve para definir a estrutura de um XML?",
+        "pontuacao": 5,
+        "alternativas": [
+          {
+            "texto": "SIM",
+            "correta": "sim"
+          },
+          {
+            "texto": "NÃO",
+            "correta": "nao"
+          }
+        ]
+      },
+      {
+        "enunciado": "O XML permite a abertura de tags sem fechamento?",
+        "pontuacao": 5,
+        "alternativas": [
+          {
+            "texto": "SIM",
+            "correta": "nao"
+          },
+          {
+            "texto": "NÃO",
+            "correta": "sim"
+          }
+        ]
+      },
+      {
+        "enunciado": "Um documento XML pode ter mais de um elemento raiz?",
+        "pontuacao": 5,
+        "alternativas": [
+          {
+            "texto": "SIM",
+            "correta": "nao"
+          },
+          {
+            "texto": "NÃO",
+            "correta": "sim"
+          }
+        ]
+      },
+      {
+        "enunciado": "O XML é sensível a maiúsculas e minúsculas?",
+        "pontuacao": 5,
+        "alternativas": [
+          {
+            "texto": "SIM",
+            "correta": "sim"
+          },
+          {
+            "texto": "NÃO",
+            "correta": "nao"
+          }
+        ]
+      }
+    ]
+  }
+}
