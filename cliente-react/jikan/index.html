@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cliente React</title>
+</head>
+
+<body class="bg-body-secondary">
+  <header style="background: linear-gradient(135deg, #000134, #234AA2);">
+    <nav class="navbar navbar-expand-lg pt-5 mb-0">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html">Cliente JS</a>
+        <form method="get" class="flex-grow-1 mw-100" id="search-anime">
+          <div class="position-relative">
+            <input type="text" id="input-anime" type="search" class="form-control me-2" placeholder="Busque animes " />
+            <button type="submit" class="btn btn-link p-0 position-absolute top-50 end-0 translate-middle-y me-3"><i
+                class="bi bi-search text-dark"></i></button>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <section class="hero d-flex justify-content-center align-items-center text-center container py-5">
+      <div>
+        <h2 class="display-5 fw-bold text-white">Discover and explore My Anime List data here!</h2>
+      </div>
+    </section>
+  </header>
+  <main class="container py-4">
+    <div id="spinner" class="text-center" style="display: none;">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Carregando...</span>
+      </div>
+    </div>
+    <div class="row g-3" id="content">
+    </div>
+  </main>
+  <footer class="bg-dark text-white text-center py-5" style="background: linear-gradient(135deg, #000134, #234AA2);">
+    &copy; 2025 Cliente JS <a href="https://jikan.moe/">API Jikan</a> por Wescley. Todos os direitos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
